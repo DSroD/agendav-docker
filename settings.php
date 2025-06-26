@@ -37,7 +37,7 @@ $app['defaults.time.format'] = '24';
  */
 $app['defaults.date_format'] = 'ymd';
 // Default first day of week. Options: 0 (Sunday), 1 (Monday)
-$app['defaults.weekstart'] = 'AGENDAV_WEEKSTART';
+$app['defaults.weekstart'] = AGENDAV_WEEKSTART;
 // Logout redirection. Optional
 $app['logout.redirection'] = '';
 // Calendar sharing
